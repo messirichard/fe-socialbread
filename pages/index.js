@@ -5,7 +5,7 @@ function Home() {
     <div className="md:container mx-auto px-4">
       <Slider>
       </Slider>
-      <div class="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 gap-4">
         <div className="">KOL MANAGEMENT</div>
         <div></div>
       </div>
