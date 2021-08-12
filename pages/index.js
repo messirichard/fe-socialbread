@@ -2,12 +2,15 @@ import Slider from '../components/slider'
 function Home() {
   return (
 
-    <div className="md:container mx-auto px-4">
+    <div className="md:container mx-auto px-4 home-page-section-1">
       <Slider>
       </Slider>
-      <div className="grid grid-cols-3 gap-4">
-        <div className="">KOL MANAGEMENT</div>
-        <div></div>
+      <h5 className="text-4xl	font-normal color__green">Layanan Kami</h5>
+      <div className="grid grid-cols-2 gap-6">
+        <div className="backgrounds__home_api">
+
+        </div>
+        <div>Influencer</div>
       </div>
     </div>
 

@@ -4,9 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary:  '#05433B'
+        primary: '#05433B',
+        green: '#05433B',
       }
     },
+    textColor: {
+      'primary': '#05433B',
+      'secondary': '#ffed4a',
+      'danger': '#e3342f',
+    }
   },
   variants: {
     extend: {},
