@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         primary: '#05433B',
         green: '#05433B',
+        text_color_white :'#F2F2F2'
       }
     },
     textColor: {
