@@ -26,12 +26,20 @@
     background: #FFFFFF;
 }
 
+.bg_color_green_2{
+    background: #2F6C64;
+}
+
 .text_color_grey_3{
     color: #828282;
 }
 
 .border_color_grey{
     border: #E0E0E0 solid 1px;
+}
+
+.width-extra-1{
+    width: 560px;
 }
 
 @import './slider.scss';
