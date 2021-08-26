@@ -10,6 +10,10 @@
     color: #F2F2F2;
 }
 
+.bg_color_grey_2{
+    background: #F2F2F2;
+}
+
 .bg-color-cream{
     background: #FFD8AC;
 }
@@ -18,8 +22,16 @@
     background: #F4F4F4;
 }
 
+.bg_color_white_1{
+    background: #FFFFFF;
+}
+
 .text_color_grey_3{
     color: #828282;
+}
+
+.border_color_grey{
+    border: #E0E0E0 solid 1px;
 }
 
 @import './slider.scss';
