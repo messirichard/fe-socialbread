@@ -80,18 +80,21 @@ return (
                     <p className="text-lg text_color_grey_3 mb-10">
                         Jangan ragu untuk memberi kami pertanyaan dan saran/pesan di bawah ini:
                     </p>
-                    <label class="text-lg text_color_green_2" for="username">
+                    <label class="text-lg text_color_green_2 font-medium" for="username">
                         Nama
                     </label>
-                    <input class="shadow mt-3 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Tulis Nama Lengkap"></input>
-                    <label class="text-lg mt-3 text_color_green_2" for="username">
-                        Nama
+                    <input class="shadow mt-4 mb-4 appearance-none border w-full py-4 text-lg pl-7 text-gray-700 leading-tight 
+                    focus:outline-none focus:shadow-outline rounded-lg" id="username" type="text" placeholder="Tulis Nama Lengkap"></input>
+                    <label class="text-lg text_color_green_2 font-medium" for="username">
+                        Email
                     </label>
-                    <input class="shadow mt-3 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Tulis Nama Lengkap"></input>
-                    <label class="text-lg mt-3 text_color_green_2" for="username">
-                        Nama
+                    <input class="shadow mt-4 mb-4 appearance-none border rounded w-full py-4 text-lg pl-7 text-gray-700 leading-tight 
+                    focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Tulis Alamat Email"></input>
+                    <label class="text-lg mt-3 text_color_green_2 font-medium" for="username">
+                        Pesan
                     </label>
-                    <textarea class="w-full mt-3 px-3 py-2 text-gray-700 border rounded-lg focus:outline-none" placeholder="Tulis pesan/komentar yang ingin di sampaikan" rows="4"></textarea>
+                    <textarea class="w-full mt-3 py-4 text-lg px-7 text-gray-700 border rounded-lg focus:outline-none resize-none" 
+                    placeholder="Tulis pesan/komentar yang ingin di sampaikan" rows="4"></textarea>
                 </div>
             </div>
             <div className="bg-color-cream absolute h-full right-0 w-1/6 z-0">
