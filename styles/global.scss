@@ -10,6 +10,22 @@
     color: #F2F2F2;
 }
 
+.text_color_cream_1{
+    color: #FED3A2;
+}
+
+.text_color_grey_2{
+    color: #4F4F4F;
+}
+
+.text_color_grey_3{
+    color: #828282;
+}
+
+.bg_color_grey_2{
+    background: #F2F2F2;
+}
+
 .bg-color-cream{
     background: #FFD8AC;
 }
@@ -18,8 +34,37 @@
     background: #F4F4F4;
 }
 
-.text_color_grey_3{
-    color: #828282;
+.bg_color_grey_2{
+    background: #F6F6F6;
+}
+
+.bg_color_green{
+    background: #05433b;
+}
+
+.bg_color_white_1{
+    background: #FFFFFF;
+}
+
+.bg_color_green_2{
+    background: #2F6C64;
+}
+
+
+.border_color_grey{
+    border: #E0E0E0 solid 1px;
+}
+
+.width-extra-1{
+    width: 560px;
+}
+
+.rounded-half{
+    border-radius: 50%
+}
+
+.border_color_green{
+    border: solid #05433b;
 }
 
 @import './slider.scss';
