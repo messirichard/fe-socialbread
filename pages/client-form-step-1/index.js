@@ -1,7 +1,11 @@
+import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
+
 function clientFormStep1() {
 return (
     <div>
-        <div className="bg_color_grey_2 pb-40">
+        <Navbar></Navbar>
+        <div className="bg_color_grey_2 pb-40 pt-44">
             <div className="md:container mx-auto px-10">
                 <div className="grid grid-cols-3 px-40 text-center pt-40 pb-40">
                     <div>
@@ -216,7 +220,7 @@ return (
                                 </p>
                             </div>
                             <div className="col-span-6 mb-7 pr-12">
-                                asd
+                                <input class="rounded-lg w-full" type="range" min="1" max="100" step="1" value="50" />
                             </div>
                             <div className="col-span-4 mb-7">
                                 <p className="text-2xl text_color_grey_2 font-medium mt-3">
@@ -302,6 +306,7 @@ return (
                 </button>
             </div>
         </div>
+        <Footer></Footer>
     </div>
     );
 }

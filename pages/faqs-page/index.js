@@ -1,7 +1,11 @@
+import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
+
 function faqsPage() {
 return (
     <div>
-        <div className="md:container mx-auto px-4">
+        <Navbar></Navbar>
+        <div className="md:container mx-auto px-4 pt-80 pb-36">
             <h1 className="text-8xl font-medium color__green mb-4">
                 FAQs
             </h1>
@@ -51,6 +55,7 @@ return (
             risus. Elementum ut ante vel feugiat nunc sed.
             </div>
         </div>
+        <Footer></Footer>
     </div>
     );
 }
