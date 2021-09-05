@@ -6,12 +6,28 @@
     color: #288074;
 }
 
+.text_color_green_3{
+    color: #2F6C64;
+}
+
+.text_color_green_4{
+    color: #2F6C64;
+}
+
 .text_color_white{
     color: #F2F2F2;
 }
 
+.text_color_white_2{
+    color: #FFFFFF;
+}
+
 .text_color_cream_1{
     color: #FED3A2;
+}
+
+.text_color_cream_2{
+    color: #FFF0DE;
 }
 
 .text_color_grey_2{
@@ -20,6 +36,10 @@
 
 .text_color_grey_3{
     color: #828282;
+}
+
+.text_color_grey_4{
+    color: #BDBDBD;
 }
 
 .bg_color_grey_2{
@@ -38,8 +58,24 @@
     background: #F6F6F6;
 }
 
+.bg_color_grey_3{
+    background: #DDE8E6;
+}
+
+.bg_color_grey_4{
+    background: #E0E0E0;
+}
+
 .bg_color_green{
     background: #05433b;
+}
+
+.bg_color_green_2{
+    background: #3B6761;
+}
+
+.bg_color_green_3{
+    background: #03443C;
 }
 
 .bg_color_white_1{
@@ -50,9 +86,21 @@
     background: #2F6C64;
 }
 
+.bg_color_green_3{
+    background: #1A564E;
+}
+
+.bg_color_blue{
+    background: #F2FAF8;
+}
+
 
 .border_color_grey{
     border: #E0E0E0 solid 1px;
+}
+
+.border_color_green_2{
+    border: #2F6C64 solid 1px;
 }
 
 .width-extra-1{
@@ -65,6 +113,11 @@
 
 .border_color_green{
     border: solid #05433b;
+}
+
+.h-extra-full{
+    height: 110%;
+    z-index: -3;
 }
 
 @import './slider.scss';

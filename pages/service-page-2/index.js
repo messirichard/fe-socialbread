@@ -1,6 +1,10 @@
+import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
+
 function servicePage2() {
 return (
     <div>
+        <Navbar></Navbar>
         <div className="mb-44 relative text-center">
             <img src="img/IMG-Service KOL.png" className="w-full z-0"></img>
             <div className="z-10 text_color_white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -20,7 +24,7 @@ return (
                 </button>
             </div>
         </div>
-        <div className="md:container mx-auto px-4 home-page-section-1">
+        <div className="md:container mx-auto px-4 home-page-section-1 mb-36">
             <div className="grid grid-cols-3 mb-20">
                 <div className="col-span-1">
                     <h1 className="text-6xl font-medium color__green">
@@ -34,7 +38,7 @@ return (
                     </p>
                 </div>                
             </div>
-            <div className="grid grid-cols-8 mb-20 z-0 relative">
+            <div className="grid grid-cols-8 z-0 relative">
                 <div className="col-span-3 bg_color_grey_2 pt-8 pl-12 color__green">
                     <p className="text-9xl font-medium color__green">
                         02
@@ -61,6 +65,7 @@ return (
                 </div>
             </div>
         </div>
+        <Footer></Footer>
     </div>
     );
 }

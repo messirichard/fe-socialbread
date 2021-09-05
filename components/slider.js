@@ -15,10 +15,14 @@ const Slider = () => {
   return (
       
     <>
-      <div className="navigation-wrapper">
-        <div ref={sliderRef} className="keen-slider">
-          <div className="keen-slider__slide number-slide1">1</div>
-          <div className="keen-slider__slide number-slide2">2</div>
+      <div className="navigation-wrapper h-96">
+        <div ref={sliderRef} className="keen-slider h-96 rounded-3xl">
+          <div className="keen-slider__slide number-slide1">
+            <img src="img/Frame-10.png"></img>
+          </div>
+          <div className="keen-slider__slide number-slide2">
+            <img src="img/Frame-10-2.png"></img>
+          </div>
         </div>
         {slider && (
           <>

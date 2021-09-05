@@ -1,7 +1,11 @@
+import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
+
 function contactUsPage() {
 return (
     <div>
-        <div className="grid grid-cols-5">
+        <Navbar></Navbar>
+        <div className="grid grid-cols-5 pt-36 pb-16">
             <div className="col-span-3">
                 <div className="pl-40 my-36">
                     <h2 className="text-6xl font-medium color__green mb-5">
@@ -97,9 +101,10 @@ return (
                     placeholder="Tulis pesan/komentar yang ingin di sampaikan" rows="4"></textarea>
                 </div>
             </div>
-            <div className="bg-color-cream absolute h-full right-0 w-1/6 z-0">
+            <div className="bg-color-cream absolute h-extra-full right-0 w-1/6 z-0">
             </div>
         </div>
+        <Footer></Footer>
     </div>
     );
 }
