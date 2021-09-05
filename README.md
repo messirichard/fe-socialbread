@@ -1,24 +1,44 @@
 Link
-http://localhost:3000/
-http://localhost:3000/client-form-step-1
-http://localhost:3000/client-form-step-3
-http://localhost:3000/contact-us
-http://localhost:3000/faqs-page
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/client-form-step-1
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/client-form-step-3
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/contact-us
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/faqs-page
+<br> </br>
 
-http://localhost:3000/influencer-page
-http://localhost:3000/influencer-page-detail
-http://localhost:3000/profile-change-page-client
-http://localhost:3000/profile-change-page-content-creator-1
-http://localhost:3000/profile-page-cc-1
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/influencer-page
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/influencer-page-detail
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/profile-change-page-client
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/profile-change-page-content-creator-1
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/profile-page-cc-1
+<br> </br>
 
-http://localhost:3000/profile-page-cc-2
-http://localhost:3000/profile-page-client-1
-http://localhost:3000/profile-page-client-2
-http://localhost:3000/profile-page-client-3
-http://localhost:3000/profile-page-client-4
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/profile-page-cc-2
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/profile-page-client-1
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/profile-page-client-2
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/profile-page-client-3
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/profile-page-client-4
+<br> </br>
 
-http://localhost:3000/registration-page-business-owner
-http://localhost:3000/registration-page-content-creator
-http://localhost:3000/service-page
-http://localhost:3000/service-page-2
-http://localhost:3000/
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/registration-page-business-owner
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/registration-page-content-creator
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/service-page
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/service-page-2
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/
+<br> </br>
