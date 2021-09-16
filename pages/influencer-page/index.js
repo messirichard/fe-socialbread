@@ -5,12 +5,13 @@ function influencerPage() {
 return (
     <div>
         <Navbar></Navbar>
-        <div className="bg_color_grey_2 pb-20 pt-52">
-            <div className="md:container mx-auto px-4 pt-16">
-                <div className="w-full h-56 bg_color_white_1 rounded-xl border mb-6">
+        <div className="md:bg_color_grey_2 pb-9 md:pb-20 pt-9 md:pt-52">
+            <div className="md:container mx-auto px-5 md:pt-16">
+                    <img src="img/Frame-12-2.png" className="w-full mb-7 md:hidden block"></img>
+                <div className="w-full md:h-56 md:bg_color_white_1 rounded-xl border mb-6 hidden md:block">
                 </div>
                 <div className="grid grid-cols-12 gap-x-6">
-                    <div className="col-span-3">
+                    <div className="hidden md:block col-span-3">
                         <h3 className="text-5xl mb-6">
                             Filter
                         </h3>
@@ -36,7 +37,7 @@ return (
                             </p>
                         </div>
                     </div>
-                    <div className="col-span-9">
+                    <div className="hidden md:block col-span-9">
                         <div className="grid grid-cols-10">
                             <div className="col-span-6">
                             </div>
@@ -44,11 +45,11 @@ return (
                                 <p className="pr-6 text-lg inline-block">
                                     Sort By
                                 </p>
-                                <select className="appearance-none border w-80 py-4 text-sm px-5 text-gray-700 leading-tight 
+                                <select className="appearance-none border md:w-80 py-4 text-sm px-5 text-gray-700 leading-tight 
                                 focus:outline-none focus:shadow-outline rounded-xl inline-block">
-                                    <option></option>
-                                    <option>No</option>
-                                    <option>Maybe</option>
+                                    <option>.</option>
+                                    <option>lorem</option>
+                                    <option>lorem</option>
                                 </select>
                             </div>
                         </div>
@@ -423,6 +424,293 @@ return (
                                 </div>
                             </div>
                         </div>
+
+                        <div className="col-span-full text-left md:block hidden">
+                        <a className="color__green text-lg pr-4">
+                            1
+                        </a>
+                        <a className="text_color_green_5 text-lg pr-4">
+                            2
+                        </a>
+                        <a className="text_color_green_5 text-lg pr-4">
+                            3
+                        </a>
+                    </div>
+                    </div>
+                    <div className="col-span-8 md:hidden block mb-7">
+                        <div className="grid grid-cols-4 gap-x-2">
+                            <div className="col-span-2">
+                                <select className="appearance-none border w-full py-3 text-sm px-2 text-gray-700 leading-tight 
+                                focus:outline-none focus:shadow-outline rounded inline-block">
+                                    <option>Filter</option>
+                                    <option>lorem</option>
+                                    <option>lorem</option>
+                                </select>
+                            </div>
+                            <div className="col-span-2">
+                                <select className="appearance-none border w-full py-3 text-sm px-2 text-gray-700 leading-tight 
+                                focus:outline-none focus:shadow-outline rounded inline-block">
+                                    <option>Sort By</option>
+                                    <option>lorem</option>
+                                    <option>lorem</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-span-full md:hidden block">
+                        <div className="grid grid-cols-6 gap-x-3">
+                            <div className="col-span-3">
+                                <div className="w-full bg_color_white_1 rounded-xl border mb-7 p-2">
+                                    <img src="img/Rectangle-165-3.png" className="w-full mb-2"></img>
+                                    <h4 className="text-xs md:text-3xl font-medium color__green mb-0">
+                                        Jacqueline Sheerine
+                                    </h4>
+                                    <div className="">
+                                        <img src="img/Group-1.png" className="inline-block h-3 mr-2"></img>
+                                        <p className="text-xs inline-block">
+                                            DKI Jakarta
+                                        </p>
+                                    </div>
+                                    <a href="#" className="text-xs text_color_grey_2 inline-block">
+                                        Life Style, Music, Self-Dev...
+                                    </a>
+                                    <h4 className="text-xs font-medium color__green">
+                                        Rp 1 - 3.5 JT
+                                    </h4>
+                                    <div className="grid grid-cols-10 gap-x-5">
+                                        <div className="col-span-3">
+                                            <img src="img/Vector-2.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block border-r pr-3">
+                                                48
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/580b57fcd9996e24bc43c521-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                23K
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/tiktok-l-min-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                120K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-span-3">
+                                <div className="w-full bg_color_white_1 rounded-xl border mb-7 p-2">
+                                    <img src="img/Rectangle-165-3.png" className="w-full mb-2"></img>
+                                    <h4 className="text-xs md:text-3xl font-medium color__green mb-0">
+                                        Jacqueline Sheerine
+                                    </h4>
+                                    <div className="">
+                                        <img src="img/Group-1.png" className="inline-block h-3 mr-2"></img>
+                                        <p className="text-xs inline-block">
+                                            DKI Jakarta
+                                        </p>
+                                    </div>
+                                    <a href="#" className="text-xs text_color_grey_2 inline-block">
+                                        Life Style, Music, Self-Dev...
+                                    </a>
+                                    <h4 className="text-xs font-medium color__green">
+                                        Rp 1 - 3.5 JT
+                                    </h4>
+                                    <div className="grid grid-cols-10 gap-x-5">
+                                        <div className="col-span-3">
+                                            <img src="img/Vector-2.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block border-r pr-3">
+                                                48
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/580b57fcd9996e24bc43c521-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                23K
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/tiktok-l-min-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                120K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-span-3">
+                                <div className="w-full bg_color_white_1 rounded-xl border mb-7 p-2">
+                                    <img src="img/Rectangle-165-3.png" className="w-full mb-2"></img>
+                                    <h4 className="text-xs md:text-3xl font-medium color__green mb-0">
+                                        Jacqueline Sheerine
+                                    </h4>
+                                    <div className="">
+                                        <img src="img/Group-1.png" className="inline-block h-3 mr-2"></img>
+                                        <p className="text-xs inline-block">
+                                            DKI Jakarta
+                                        </p>
+                                    </div>
+                                    <a href="#" className="text-xs text_color_grey_2 inline-block">
+                                        Life Style, Music, Self-Dev...
+                                    </a>
+                                    <h4 className="text-xs font-medium color__green">
+                                        Rp 1 - 3.5 JT
+                                    </h4>
+                                    <div className="grid grid-cols-10 gap-x-5">
+                                        <div className="col-span-3">
+                                            <img src="img/Vector-2.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block border-r pr-3">
+                                                48
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/580b57fcd9996e24bc43c521-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                23K
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/tiktok-l-min-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                120K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-span-3">
+                                <div className="w-full bg_color_white_1 rounded-xl border mb-7 p-2">
+                                    <img src="img/Rectangle-165-3.png" className="w-full mb-2"></img>
+                                    <h4 className="text-xs md:text-3xl font-medium color__green mb-0">
+                                        Jacqueline Sheerine
+                                    </h4>
+                                    <div className="">
+                                        <img src="img/Group-1.png" className="inline-block h-3 mr-2"></img>
+                                        <p className="text-xs inline-block">
+                                            DKI Jakarta
+                                        </p>
+                                    </div>
+                                    <a href="#" className="text-xs text_color_grey_2 inline-block">
+                                        Life Style, Music, Self-Dev...
+                                    </a>
+                                    <h4 className="text-xs font-medium color__green">
+                                        Rp 1 - 3.5 JT
+                                    </h4>
+                                    <div className="grid grid-cols-10 gap-x-5">
+                                        <div className="col-span-3">
+                                            <img src="img/Vector-2.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block border-r pr-3">
+                                                48
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/580b57fcd9996e24bc43c521-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                23K
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/tiktok-l-min-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                120K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-span-3">
+                                <div className="w-full bg_color_white_1 rounded-xl border mb-7 p-2">
+                                    <img src="img/Rectangle-165-3.png" className="w-full mb-2"></img>
+                                    <h4 className="text-xs md:text-3xl font-medium color__green mb-0">
+                                        Jacqueline Sheerine
+                                    </h4>
+                                    <div className="">
+                                        <img src="img/Group-1.png" className="inline-block h-3 mr-2"></img>
+                                        <p className="text-xs inline-block">
+                                            DKI Jakarta
+                                        </p>
+                                    </div>
+                                    <a href="#" className="text-xs text_color_grey_2 inline-block">
+                                        Life Style, Music, Self-Dev...
+                                    </a>
+                                    <h4 className="text-xs font-medium color__green">
+                                        Rp 1 - 3.5 JT
+                                    </h4>
+                                    <div className="grid grid-cols-10 gap-x-5">
+                                        <div className="col-span-3">
+                                            <img src="img/Vector-2.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block border-r pr-3">
+                                                48
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/580b57fcd9996e24bc43c521-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                23K
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/tiktok-l-min-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                120K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-span-3">
+                                <div className="w-full bg_color_white_1 rounded-xl border mb-7 p-2">
+                                    <img src="img/Rectangle-165-3.png" className="w-full mb-2"></img>
+                                    <h4 className="text-xs md:text-3xl font-medium color__green mb-0">
+                                        Jacqueline Sheerine
+                                    </h4>
+                                    <div className="">
+                                        <img src="img/Group-1.png" className="inline-block h-3 mr-2"></img>
+                                        <p className="text-xs inline-block">
+                                            DKI Jakarta
+                                        </p>
+                                    </div>
+                                    <a href="#" className="text-xs text_color_grey_2 inline-block">
+                                        Life Style, Music, Self-Dev...
+                                    </a>
+                                    <h4 className="text-xs font-medium color__green">
+                                        Rp 1 - 3.5 JT
+                                    </h4>
+                                    <div className="grid grid-cols-10 gap-x-5">
+                                        <div className="col-span-3">
+                                            <img src="img/Vector-2.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block border-r pr-3">
+                                                48
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/580b57fcd9996e24bc43c521-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                23K
+                                            </p>
+                                        </div>
+                                        <div className="col-span-3">
+                                            <img src="img/tiktok-l-min-1.png" className="inline-block pr-1 w-1/3"></img>
+                                            <p className="text-xs inline-block">
+                                                120K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-span-full text-center md:hidden block">
+                        <a className="color__green text-lg pr-4">
+                            1
+                        </a>
+                        <a className="text_color_green_5 text-lg pr-4">
+                            2
+                        </a>
+                        <a className="text_color_green_5 text-lg pr-4">
+                            3
+                        </a>
                     </div>
                 </div>
             </div>

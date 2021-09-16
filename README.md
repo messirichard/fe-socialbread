@@ -42,3 +42,16 @@ https://fe-socialbread-pv373m8wo-messirichard.vercel.app/service-page-2
 <br> </br>
 https://fe-socialbread-pv373m8wo-messirichard.vercel.app/
 <br> </br>
+
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/service-page
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/service-page-2
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/client-form-step-1
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/client-form-step-3
+<br> </br>
+https://fe-socialbread-pv373m8wo-messirichard.vercel.app/influencer-page
+<br> </br>

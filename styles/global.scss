@@ -14,6 +14,10 @@
     color: #2F6C64;
 }
 
+.text_color_green_5{
+    color: #05433B40;
+}
+
 .text_color_white{
     color: #F2F2F2;
 }
@@ -99,9 +103,15 @@
     border: #E0E0E0 solid 1px;
 }
 
+.border_color_grey_2{
+    border: #BDBDBD solid;
+}
+
+
 .border_color_green_2{
     border: #2F6C64 solid 1px;
 }
+
 
 .width-extra-1{
     width: 560px;
@@ -115,9 +125,17 @@
     border: solid #05433b;
 }
 
+.border_color_green_mobile{
+    border: 1px solid #05433b;
+}
+
 .h-extra-full{
     height: 110%;
     z-index: -3;
+}
+
+.text-xxs{
+    font-size: 11px;
 }
 
 @import './slider.scss';
