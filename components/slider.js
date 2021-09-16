@@ -15,13 +15,19 @@ const Slider = () => {
   return (
       
     <>
-      <div className="navigation-wrapper h-96">
-        <div ref={sliderRef} className="keen-slider h-96 rounded-3xl">
+      <div className="navigation-wrapper h-48 md:h-96">
+        <div ref={sliderRef} className="keen-slider h-48 md:h-96 rounded-3xl">
           <div className="keen-slider__slide number-slide1">
-            <img src="img/Frame-10.png"></img>
+            <img src="img/Frame-10.png" className="md:block hidden"></img>
+            <img src="img/Frame-11.png" className="md:hidden w-full"></img>
           </div>
           <div className="keen-slider__slide number-slide2">
-            <img src="img/Frame-10-2.png"></img>
+            <img src="img/Frame-10-2.png" className="md:block hidden"></img>
+            <img src="img/Group-130.png" className="md:hidden w-full"></img>
+          </div>
+          <div className="keen-slider__slide number-slide3">
+            <img src="img/Frame-10-3.png" className="md:block hidden"></img>
+            <img src="img/Frame-11-4.png" className="md:hidden w-full"></img>
           </div>
         </div>
         {slider && (
@@ -38,7 +44,7 @@ const Slider = () => {
         )}
       </div>
       {slider && (
-        <div className="dots">
+        <div className="dots absolute left-1/2 transform -translate-x-1/2 -mt-10">
           {[...Array(slider.details().size).keys()].map((idx) => {
             return (
               <button
