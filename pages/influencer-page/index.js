@@ -441,7 +441,7 @@ return (
                         <div className="grid grid-cols-4 gap-x-2">
                             <div className="col-span-2">
                                 <select className="appearance-none border w-full py-3 text-sm px-2 text-gray-700 leading-tight 
-                                focus:outline-none focus:shadow-outline rounded inline-block">
+                                focus:outline-none focus:shadow-outline rounded inline-block button-box-shadow-1 bg-white">
                                     <option>Filter</option>
                                     <option>lorem</option>
                                     <option>lorem</option>
@@ -449,7 +449,7 @@ return (
                             </div>
                             <div className="col-span-2">
                                 <select className="appearance-none border w-full py-3 text-sm px-2 text-gray-700 leading-tight 
-                                focus:outline-none focus:shadow-outline rounded inline-block">
+                                focus:outline-none focus:shadow-outline rounded inline-block button-box-shadow-1 bg-white">
                                     <option>Sort By</option>
                                     <option>lorem</option>
                                     <option>lorem</option>
@@ -702,13 +702,13 @@ return (
                         </div>
                     </div>
                     <div className="col-span-full text-center md:hidden block">
-                        <a className="color__green text-lg pr-4">
+                        <a className="color__green text-lg pr-4" href="#">
                             1
                         </a>
-                        <a className="text_color_green_5 text-lg pr-4">
+                        <a className="text_color_green_5 text-lg pr-4" href="#">
                             2
                         </a>
-                        <a className="text_color_green_5 text-lg pr-4">
+                        <a className="text_color_green_5 text-lg pr-4" href="#">
                             3
                         </a>
                     </div>

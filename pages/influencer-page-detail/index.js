@@ -5,10 +5,10 @@ function influencerPageDetail() {
 return (
     <div>
         <Navbar></Navbar>
-        <div className="bg_color_grey_2 pt-80 ">
+        <div className="md:bg_color_grey_2 pt-9 md:pt-80 ">
             <div className="md:container mx-auto px-4 pt-16">
-                <div className="grid grid-cols-12 gap-x-24">
-                    <div className="col-span-5 mb-32">
+                <div className="grid grid-cols-12 md:gap-x-24">
+                    <div className="col-span-12 md:col-span-5 mb-5 md:mb-32">
                         <img className="w-full mb-6" src="img/Rectangle-85.png"></img>
                         <div className="grid grid-cols-3 gap-x-6">
                             <div>
@@ -22,28 +22,28 @@ return (
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-7">
+                    <div className="col-span-12 md:col-span-7">
                         <div className="grid grid-cols-2 gap-x-16">
-                            <div>
-                                <h2 className="text-5xl color__green mb-4">
+                            <div className="col-span-2 md:col-span-1">
+                                <h2 className="text-2xl md:text-5xl color__green mb-4">
                                     Influencer Name
                                 </h2>
                                 <img src="img/Location-Icon.png" className="inline-block mr-3"></img>
                                 <p className="text-sm color__green inline-block">
                                     DKI Jakarta
                                 </p>
-                                <p className="text-lg mt-2 text_color_grey_2">
+                                <p className="text-sm md:text-lg mt-2 text_color_grey_2">
                                     Lifestyle, Game, Music
                                 </p>
-                                <p className="text-lg mt-2 text_color_grey_2">
+                                <p className="text-sm md:text-lg mt-2 text_color_grey_2">
                                     Review
                                 </p>
                                 <div className="mb-7">
-                                    <img src="img/Vector-2.png" className="w-6 h-6 mr-2 inline-block"></img>
-                                    <img src="img/Vector-2.png" className="w-6 h-6 mr-2 inline-block"></img>
-                                    <img src="img/Vector-2.png" className="w-6 h-6 mr-2 inline-block"></img>
-                                    <img src="img/Vector-2.png" className="w-6 h-6 mr-2 inline-block"></img>
-                                    <img src="img/Vector-2.png" className="w-6 h-6 mr-2 inline-block"></img>
+                                    <img src="img/Vector-2.png" className="md:w-6 md:h-6 mr-2 inline-block"></img>
+                                    <img src="img/Vector-2.png" className="md:w-6 md:h-6 mr-2 inline-block"></img>
+                                    <img src="img/Vector-2.png" className="md:w-6 md:h-6 mr-2 inline-block"></img>
+                                    <img src="img/Vector-2.png" className="md:w-6 md:h-6 mr-2 inline-block"></img>
+                                    <img src="img/Vector-2.png" className="md:w-6 md:h-6 mr-2 inline-block"></img>
                                 </div>
 
                                 <div className="w-full py-5 px-5 bg_color_white_1 rounded-xl border mb-4">
@@ -103,7 +103,7 @@ return (
                                 </div>
                             </div>
 
-                            <div>
+                            <div className="col-span-2 md:col-span-1 mt-6 md:mt-0 mb-8 md:mb-0">
                                 <div className="w-full p-6 bg_color_white_1 rounded-xl border">
                                     <div className="w-full px-7 py-4 bg_color_white_1 rounded-xl border mb-4">
                                         <div className="grid grid-cols-2">
@@ -175,32 +175,117 @@ return (
                     </div>
 
                     <div className="col-span-full">
-                        <h3 className="text-4xl color__green font-medium mb-9">
+                        <h3 className="text-2xl md:text-4xl color__green font-medium mb-9">
                             Ulasan (68)
                         </h3>
-                        <p className="text-2xl text_color_grey_2 mb-5">
+                        <p className="text-lg md:text-2xl text_color_grey_2 mb-5">
                             Best Content
                         </p>
                         <div className="grid grid-cols-9 mb-20">
-                            <div className="col-span-5">
-                                <div className="grid grid-cols-5 gap-x-6">
-                                    <div className="bg_color_grey_4 w-full h-40 rounded-lg">
+                            <div className="col-span-full md:col-span-5">
+                                <div className="grid grid-cols-12 md:grid-cols-5 gap-x-3 md:gap-x-6">
+                                    <div className="col-span-3 md:col-span-1">
+                                        <div className="bg_color_grey_4 w-full h-20 mb-3 md:mb-auto md:h-40 rounded-lg">
+                                        </div>
                                     </div>
-                                    <div className="bg_color_grey_4 w-full h-40 rounded-lg">
+                                    <div className="col-span-3 md:col-span-1">
+                                        <div className="bg_color_grey_4 w-full h-20 mb-3 md:mb-auto md:h-40 rounded-lg">
+                                        </div>
                                     </div>
-                                    <div className="bg_color_grey_4 w-full h-40 rounded-lg">
+                                    <div className="col-span-3 md:col-span-1">
+                                        <div className="bg_color_grey_4 w-full h-20 mb-3 md:mb-auto md:h-40 rounded-lg">
+                                        </div>
                                     </div>
-                                    <div className="bg_color_grey_4 w-full h-40 rounded-lg">
+                                    <div className="col-span-3 md:col-span-1">
+                                        <div className="bg_color_grey_4 w-full h-20 mb-3 md:mb-auto md:h-40 rounded-lg">
+                                        </div>
                                     </div>
-                                    <div className="bg_color_grey_4 w-full h-40 rounded-lg">
+                                    <div className="col-span-3 md:col-span-1">
+                                        <div className="bg_color_grey_4 w-full h-20 mb-3 md:mb-auto md:h-40 rounded-lg">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <p className="text-2xl text_color_grey_2 mb-9">
+                        <p className="text-lg md:text-2xl text_color_grey_2 mb-9">
                             Semua Ulasan
                         </p>
-                        <div className="grid grid-cols-9 mb-20">
+                        <div className="grid grid-cols-12 md:grid-cols-9 mb-20">
+                            <div className="col-span-12 md:col-span-7">
+                                <div className="grid grid-cols-12">
+                                    <div className="col-span-3 md:col-span-1">
+                                        <img src="img/Rectangle-183.png" className="w-full"></img>
+                                    </div>
+                                    <div className="col-span-9 md:col-span-3 pl-11">
+                                        <h3 className="text-lg md:text-2xl color__green font-medium mt-2">
+                                            Business Name 
+                                        </h3>
+                                        <p className="text-sm md:text-lg text_color_grey_2 mb-5">
+                                            Best Content
+                                        </p>
+                                    </div>
+                                    <div className="col-span-12 md:col-span-6">
+                                        <p className="text-sm md:text-lg text_color_grey_2 mb-5 mt-4 md:mt-0">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nisi ullamcorper 
+                                            tellus, ipsum volutpat. In eget volutpat lorem rhoncus proin enim, ac orci non. Velit 
+                                            leo mi metus rutrum a, nulla semper leo. 
+                                        </p>
+                                    </div>
+                                    <div className="border-b col-span-full mt-6 mb-14">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-span-12 md:col-span-7">
+                                <div className="grid grid-cols-12">
+                                    <div className="col-span-3 md:col-span-1">
+                                        <img src="img/Rectangle-183.png" className="w-full"></img>
+                                    </div>
+                                    <div className="col-span-9 md:col-span-3 pl-11">
+                                        <h3 className="text-lg md:text-2xl color__green font-medium mt-2">
+                                            Business Name 
+                                        </h3>
+                                        <p className="text-sm md:text-lg text_color_grey_2 mb-5">
+                                            Best Content
+                                        </p>
+                                    </div>
+                                    <div className="col-span-12 md:col-span-6">
+                                        <p className="text-sm md:text-lg text_color_grey_2 mb-5 mt-4 md:mt-0">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nisi ullamcorper 
+                                            tellus, ipsum volutpat. In eget volutpat lorem rhoncus proin enim, ac orci non. Velit 
+                                            leo mi metus rutrum a, nulla semper leo. 
+                                        </p>
+                                    </div>
+                                    <div className="border-b col-span-full mt-6 mb-14">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-span-12 md:col-span-7">
+                                <div className="grid grid-cols-12">
+                                    <div className="col-span-3 md:col-span-1">
+                                        <img src="img/Rectangle-183.png" className="w-full"></img>
+                                    </div>
+                                    <div className="col-span-9 md:col-span-3 pl-11">
+                                        <h3 className="text-lg md:text-2xl color__green font-medium mt-2">
+                                            Business Name 
+                                        </h3>
+                                        <p className="text-sm md:text-lg text_color_grey_2 mb-5">
+                                            Best Content
+                                        </p>
+                                    </div>
+                                    <div className="col-span-12 md:col-span-6">
+                                        <p className="text-sm md:text-lg text_color_grey_2 mb-5 mt-4 md:mt-0">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nisi ullamcorper 
+                                            tellus, ipsum volutpat. In eget volutpat lorem rhoncus proin enim, ac orci non. Velit 
+                                            leo mi metus rutrum a, nulla semper leo. 
+                                        </p>
+                                    </div>
+                                    <div className="border-b col-span-full mt-6 mb-14">
+                                    </div>
+                                </div>
+                            </div>
+{/*                             
                             <div className="col-span-7">
                                 <div className="grid grid-cols-12">
                                     <div>
@@ -248,34 +333,10 @@ return (
                                     <div className="border-b col-span-full mt-6 mb-14">
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-span-7">
-                                <div className="grid grid-cols-12">
-                                    <div>
-                                        <img src="img/Rectangle-183.png" className="w-full"></img>
-                                    </div>
-                                    <div className="col-span-3 pl-11">
-                                        <h3 className="text-2xl color__green font-medium mt-2">
-                                            Business Name 
-                                        </h3>
-                                        <p className="text-lg text_color_grey_2 mb-5">
-                                            Best Content
-                                        </p>
-                                    </div>
-                                    <div className="col-span-6">
-                                        <p className="text-lg text_color_grey_2 mb-5">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nisi ullamcorper 
-                                            tellus, ipsum volutpat. In eget volutpat lorem rhoncus proin enim, ac orci non. Velit 
-                                            leo mi metus rutrum a, nulla semper leo. 
-                                        </p>
-                                    </div>
-                                    <div className="border-b col-span-full mt-6 mb-14">
-                                    </div>
-                                </div>
-                            </div>
+                            </div> */}
                             <div className="col-span-7">
                                 <div className="text-right">
-                                    <ul className="pr-10">
+                                    <ul className="md:pr-10">
                                         <li className="list-none text-lg inline-block ml-5">
                                             1
                                         </li>
