@@ -51,6 +51,41 @@ function Navbar(){
                     </div>
                 </div>
             </div>
+            <div className="block md:hidden xl:hidden px-5 pt-6 pb-5 shadow-lg">
+                <div className="grid grid-cols-12">
+                    <div className="col-span-1">
+                        <button>
+                            <img src="img/Frame-4.png" className="w-full mt-1"></img>
+                        </button>
+                    </div>
+                    <div className="col-span-3 pl-3">
+                        <a href="#">
+                            <img src="img/Frame-3.png" className="w-full"></img>
+                        </a>
+                    </div>
+                    <div className="col-span-4">
+                    </div>
+                    <div className="col-span-4 pt-1">
+                        <div className="grid grid-cols-6 relative">
+                            <div className="col-span-2 pl-2">
+                                <a href="#" className="">
+                                    <img src="img/Vector-4-mobile-3.png" className="absolute top-1/2 transform -translate-y-1/2"></img>
+                                </a>
+                            </div>
+                            <div className="col-span-2 pl-2 border-r">
+                                <a href="#" className="">
+                                    <img src="img/Vector-4-mobile-2.png" className=""></img>
+                                </a>
+                            </div>
+                            <div className="col-span-2 pl-2">
+                                <a href="#">
+                                    <img src="img/Vector-4-mobile.png" className=""></img>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

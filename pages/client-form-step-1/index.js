@@ -40,7 +40,7 @@ return (
 
                 <section className="section-2 bg-white mb-6 md:mb-11 pb-16 border">
                     <div className="grid grid-cols-2 bg_color_green px-5 py-2 md:px-8 md:py-5">
-                        <div className="text-xs md:text-3xl text_color_cream_1">
+                        <div className="sm:text-9xl text-xs md:text-3xl text_color_cream_1">
                             Form Klien
                         </div>
                         <div className="hidden md:block text-lg text-right text_color_cream_1">

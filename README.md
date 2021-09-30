@@ -9,6 +9,8 @@ https://fe-socialbread.vercel.app/contact-us
 <br> </br>
 https://fe-socialbread.vercel.app/faqs-page
 <br> </br>
+https://fe-socialbread.vercel.app/cart-page
+
 
 https://fe-socialbread.vercel.app/influencer-page
 <br> </br>
@@ -20,6 +22,7 @@ https://fe-socialbread.vercel.app/profile-change-page-content-creator-1
 <br> </br>
 https://fe-socialbread.vercel.app/profile-page-cc-1
 <br> </br>
+
 
 https://fe-socialbread.vercel.app/profile-page-cc-2
 <br> </br>
@@ -86,5 +89,6 @@ https://fe-socialbread.vercel.app/service-page
 <br> </br>
 https://fe-socialbread.vercel.app/service-page-2
 <br> </br>
-https://fe-socialbread.vercel.app/
-
+https://fe-socialbread.vercel.app/about-us
+<br> </br>
+https://fe-socialbread.vercel.app/cart-page
