@@ -61,9 +61,7 @@ class Navbar extends React.Component{
                 
                 <div className="block md:hidden xl:hidden px-5 pt-6 pb-5 shadow-lg">
                     <div className="grid grid-cols-12">
-                        <div className="col-span-1">
-                            <Hamburger/>
-                        </div>
+                        <Hamburger/>
                         <div className="col-span-3 pl-3">
                             <a href="#">
                                 <img src="img/Frame-3.png" className="w-full"></img>

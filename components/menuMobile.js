@@ -4,8 +4,12 @@ import React, {Component} from "react";
 class MenuMobile extends Component{
     render(){
         return(
-            <div className="cok">
-                dhannyjancok asu
+            // nak col span-12 kudu dikei position absloute
+            <div className="col-span-12">
+                <div className="cok">
+                    dhannyjancok asu
+                </div>
+
             </div>
 
         )

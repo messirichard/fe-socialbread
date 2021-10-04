@@ -23,9 +23,11 @@ class Hamburger extends Component{
     render(){
         return(
             <>
-                <button className="hamburger">
-                    <img onClick={() => this.operation()} src="img/Frame-4.png" className="w-full mt-1"></img>
-                </button>
+                <div className="col-span-1">
+                    <button className="hamburger">
+                        <img onClick={() => this.operation()} src="img/Frame-4.png" className="w-full mt-1"></img>
+                    </button>
+                </div>
                 
                 {
                     this.state.menuMobile ? 
