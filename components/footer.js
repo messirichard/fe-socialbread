@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function Footer(){
     return(
         <div>
@@ -13,9 +15,11 @@ function Footer(){
                                     <h3 className="text_color_cream_1 text-xs mb-4 md:text-2xl font-semibold md:mt-2 md:mb-9">
                                         Company
                                     </h3>
-                                    <a className="text_color_cream_2 text-xs mb-4 md:text-lg md:mb-3 block" href="#">
-                                        About Us
-                                    </a>
+                                    <Link href="/about-us">
+                                        <a className="text_color_cream_2 text-xs mb-4 md:text-lg md:mb-3 block" href="#">
+                                            About Us
+                                        </a>
+                                    </Link>
                                     <a className="text_color_cream_2 text-xs mb-4 md:text-lg md:mb-3 block" href="#">
                                         Our Service
                                     </a>
@@ -27,12 +31,16 @@ function Footer(){
                                     <h3 className="text_color_cream_1 text-xs mb-4 md:text-2xl font-semibold md:mt-2 md:mb-9">
                                         Get in Touch
                                     </h3>
-                                    <a className="text_color_cream_2 text-xs mb-4 md:text-lg md:mb-3 block" href="#">
-                                        FAQ
-                                    </a>
-                                    <a className="text_color_cream_2 text-xs mb-4 md:text-lg md:mb-3 block" href="#">
-                                        Contact Us
-                                    </a>
+                                    <Link href="/faqs-page">
+                                        <a className="text_color_cream_2 text-xs mb-4 md:text-lg md:mb-3 block" href="#">
+                                            FAQ
+                                        </a>
+                                    </Link>
+                                    <Link href="/contact-us">
+                                        <a className="text_color_cream_2 text-xs mb-4 md:text-lg md:mb-3 block" href="#">
+                                            Contact Us
+                                        </a>
+                                    </Link>
                                 </div>
                                 <div className="md:col-span-1 col-span-2 pl-8 md:pl-0">
                                     <h3 className="text_color_cream_1 text-xs mt-7 mb-4 md:text-2xl font-semibold md:mt-2 md:mb-9">

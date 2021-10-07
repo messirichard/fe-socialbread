@@ -13,8 +13,8 @@ class Navbar extends React.Component{
                             <img src="img/Frame-3.png" className="cursor-pointer"></img>
                         </Link>
                     </div>
-                    <div className="md:col-span-6">
-                        <div className="md:grid md:grid-cols-4 md:gap-x-20 md:mt-5">
+                    <div className="md:col-span-7">
+                        <div className="md:grid md:grid-cols-5 md:gap-x-20 md:mt-5">
                             <div className="col-span-1">
                                 <Link href="/about-us">
                                     <a href="#" className="md:text-lg md:color__green">
@@ -41,17 +41,14 @@ class Navbar extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div className="md:col-span-4 md:mt-3">
+                    <div className="md:col-span-3 md:mt-3">
                         <div className="md:grid md:grid-cols-10">
-                            <div className="md:col-span-4 md:grid md:grid-cols-2 md:mr-12 md:mt-2 md:pl-14">
-                                <Link href="/profile-page-client-6">
-                                    <img src="img/Frame-5.png" className="cursor-pointer md:pr-8 mt-1"></img>
-                                </Link>
+                            <div className="md:col-span-2">
                                 <Link href="/cart-page">
-                                    <img src="img/Vector-4.png" className="cursor-pointer md:border-r md:pr-7"></img>
+                                    <img src="img/Vector-4.png" className="md:border-r md:pr-7"></img>
                                 </Link>
                             </div>
-                            <div className="md:col-span-6">
+                            <div className="md:col-span-8">
                                 <div className="md:grid md:grid-cols-2 md:gap-x-4 ">
                                     <div className="md:col-span-1">
                                         <button className="md:text-sm text_color_green_2 md:py-2 border_color_green_2 md:text-center md:rounded-xl md:w-full">
