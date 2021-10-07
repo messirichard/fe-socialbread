@@ -1,6 +1,6 @@
 import React from "react";
 import Hamburger from "./hamburger";
-
+import Link from 'next/link'
 
 class Navbar extends React.Component{
 
@@ -9,7 +9,9 @@ class Navbar extends React.Component{
             <div>
                 <div className="hidden md:py-12 md:px-24 md:grid md:grid-cols-12 md:shadow-lg md:absolute md:w-full md:z-50 bg_color_white_1">
                     <div className="md:col-span-2">
-                        <img src="img/Frame-3.png" ></img>
+                        <Link href="/">
+                            <img src="img/Frame-3.png" className="cursor-pointer"></img>
+                        </Link>
                     </div>
                     <div className="md:col-span-7">
                         <div className="md:grid md:grid-cols-5 md:gap-x-20 md:mt-5">

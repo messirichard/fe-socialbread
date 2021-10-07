@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <div>
-            <div className="bg_color_green_3 pt-11 pb-9 md:py-16 md:z-10">
+            <div className="bg_color_green_5 pt-11 pb-9 md:py-16 md:z-10">
                 <div className="px-7 md:container md:mx-auto md:px-0">
                     <div className="md:grid md:grid-cols-10">
                         <div className="md:col-span-7">

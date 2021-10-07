@@ -374,7 +374,7 @@ function AboutUs() {
                                 </div>
                                 <div className="w-full border mb-10 mt-5">
                                 </div>
-                                <button className="text-xs md:text-lg text_color_white bg_color_green_3 py-3  text-center w-full rounded-md mb-12 md:mb-auto md:rounded-xl">
+                                <button className="text-xs md:text-lg text_color_white bg_color_green_4 py-3  text-center w-full rounded-md mb-12 md:mb-auto md:rounded-xl">
                                     Pesan Sekarang
                                 </button>
                             </div>

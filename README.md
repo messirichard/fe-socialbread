@@ -43,6 +43,8 @@ https://fe-socialbread.vercel.app/service-page
 <br> </br>
 https://fe-socialbread.vercel.app/service-page-2
 <br> </br>
+https://fe-socialbread.vercel.app/profile-page-client-6
+<br> </br>
 https://fe-socialbread.vercel.app/
 <br> </br>
 
