@@ -54,6 +54,10 @@
     color: #BDBDBD;
 }
 
+.text_color_grey_5{
+    color: #AEAEAE;
+}
+
 .bg_color_grey_2{
     background: #F2F2F2;
 }
@@ -201,6 +205,12 @@
 .chat-balloon-white{
     background-image: url('../public/img/Union-2.png');
     background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-none-mobile {
+        background-color: transparent;
+    }
 }
 
 @import './slider.scss';

@@ -67,7 +67,7 @@ function ArrowLeft(props) {
   return (
     <svg
       onClick={props.onClick}
-      className={"arrow arrow--left" + disabeld}
+      className={"arrow arrow--left fill-current color text_color_grey_5 bg_color_white_1" + disabeld}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
     >
@@ -81,7 +81,7 @@ function ArrowRight(props) {
   return (
     <svg
       onClick={props.onClick}
-      className={"arrow arrow--right" + disabeld}
+      className={"arrow arrow--right fill-current color text_color_grey_5 bg_color_white_1" + disabeld}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
     >
