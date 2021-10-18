@@ -1,10 +1,12 @@
 import React from "react";
 import Hamburger from "./hamburger";
 import Link from 'next/link'
-
+import ModalLogin from './login/loginModal';
 class Navbar extends React.Component{
 
+    
     render(){
+
         return(
             <div>
                 <div className="not-registered-navbar hidden md:py-12 md:px-24 md:grid md:grid-cols-12 md:shadow-lg md:absolute md:w-full md:z-50 bg_color_white_1">
@@ -54,9 +56,20 @@ class Navbar extends React.Component{
                             <div className="md:col-span-6">
                                 <div className="md:grid md:grid-cols-2 md:gap-x-4 ">
                                     <div className="md:col-span-1">
-                                        <button className="md:text-sm text_color_green_2 md:py-2 border_color_green_2 md:text-center md:rounded-xl md:w-full">
+                                        {/* <button onClick={() => this.loginModals()} className="md:text-sm text_color_green_2 md:py-2 border_color_green_2 md:text-center md:rounded-xl md:w-full">
                                             Login
                                         </button>
+                                        {
+                                            this.state.LoginModal ? 
+
+                                            
+                                            <Login />
+                                            
+                                            
+                                            :
+                                            null
+                                        } */}
+                                        <ModalLogin />
                                     </div>
                                     <div className="md:col-span-1">
                                         <button className="md:text-sm text_color_white bg_color_green_2 md:py-2 md:text-center md:rounded-xl md:w-full">

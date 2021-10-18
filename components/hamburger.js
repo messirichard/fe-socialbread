@@ -13,11 +13,6 @@ class Hamburger extends Component{
         this.setState({
             menuMobile: !this.state.menuMobile
         })
-        // alert('as')
-    }
-
-    clickLogo(){
-        console.log('a')
     }
 
     render(){
