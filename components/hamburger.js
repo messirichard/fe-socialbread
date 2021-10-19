@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import MenuMobile from "./menuMobile";
 
+
 class Hamburger extends Component{
     constructor(){
         super()
